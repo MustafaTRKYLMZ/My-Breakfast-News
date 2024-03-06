@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
+    <link rel="stylesheet" href="styles.css">
+    <title>My Breakfast News</title>
+</head>
+<body>
+    <main>
+        <!--Header -->
+        <header>
+        </header>
+        <section class="news-body">
+            <!--left side bar -->
+            <div class="left-side-bar">
+            </div>
+            <div class="right-side-bar">
+                <!--hero news -->
+                <div class="hero">
+                </div>
+                <!-- news list-->
+                <div class="news-list">
+                </div>
+            </div>
+        </section>
+        <footer>
+            <div class="copright">
+                <img
+                    src="https://image.shutterstock.com/image-vector/copyright-symbol-icon-c-letter-260nw-1565723977.jpg">
+                <p>2024 <a href="https://github.com/MustafaTRKYLMZ">Mustafa T</a>. All rights reserved.</p>
+            </div>
+        </footer>
+    </main>
+    <!-- CHANNEL CREATE MODAL-->
+    <div id="createChannelModal" class="modal-overlay">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h2>Create channel</h2>
+                <button class="close-button" onclick="closeModal()">Close </button>
+            </div>
+            <div class="modal-body" id="form">
+                <fieldset>
+                    <label for="channel-name">Channel name</label>
+                    <input name="channel-name" type="text" id="canal-name" placeholder="Enter channel name">
+                    <label for="channel-link">Channel link</label>
+                    <input name="channel-link" type="text" id="channel-link"
+                        placeholder="Enter channel link. Ex: https://nltimes.nl">
+                </fieldset>
+            </div>
+            <div class="modal-footer">
+                <button id="create-channel" onClick="createChannel()">Submit</button>
+            </div>
+        </div>
+    </div>
+<script href="file.js"></script>
+</body>
+
+</html>
