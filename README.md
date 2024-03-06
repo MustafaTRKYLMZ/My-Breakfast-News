@@ -1,2 +1,2 @@
-# My-Restaurant-News
-My Restaurant news is about daily news. You can add channel which you want to see any news frol those channels. 
+# My-Breakfast-News
+My breakfast news is about the daily news. You can add a channel which you want to see any news from those channels. 
