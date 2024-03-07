@@ -166,7 +166,7 @@ footer img {
 }
 
 .hero h3 {
-    width: 80%;
+    width: 90%;
     font-weight: 700;
     font-size: 4rem;
 }
@@ -199,7 +199,6 @@ footer img {
 }
 
 /* Left sidebar menu */
-
 button {
     display: block;
     background: rgb(255, 255, 255);
@@ -281,8 +280,7 @@ button:focus {
     color: rgb(255, 165, 0);
 }
 
-.mobil-create-channel,
-.mobil-channel-menu {
+.mobil-create-channel {
     display: none;
 }
 
@@ -300,8 +298,7 @@ button:focus {
     gap: 1rem;
 }
 
-/* right-body*/
-
+/* hero right-body*/
 .hero-news-card-content {
     display: flex;
     flex-direction: column;
@@ -410,11 +407,6 @@ button:focus {
     width: 100%;
 }
 
-.closeButton {
-    color: rgb(255, 0, 0);
-    background-color: rgb(255, 165, 0);
-}
-
 .modal-body {
     padding: 10px 20px;
 }
@@ -426,15 +418,6 @@ button:focus {
     color: rgb(0, 0, 0);
     text-align: center;
     justify-content: flex-end;
-}
-
-.closeBtn:hover,
-.closeBtn:focus {
-    background-color: rgb(255, 255, 255);
-    text-decoration: none;
-    cursor: pointer;
-    width: 60px;
-    font-size: 18px;
 }
 
 fieldset {
@@ -496,57 +479,53 @@ footer {
     gap: 1rem;
     align-items: stretch;
 }
-.mobil-channel-list .closebtn {
-    position: absolute;
-    top: 0;
-    right: 0;
-    font-size: 36px;
-    margin-left: 50px;
-}
+
 .openbtn {
     font-size: 20px;
     cursor: pointer;
     border: 1px solid rgb(255, 165, 0);
     padding: 10px 15px;
 }
+
 .openbtn:hover {
     background-color: #444;
 }
+
 .mobil-button-group {
     display: none;
 }
+
 .side-bar-button-group {
     display: flex;
     justify-content: flex-end;
     gap: 0.5rem;
 }
+
 @media screen and (max-width: 768px) {
     .modal-content {
         width: 80%;
     }
+
     .left-side-bar {
         display: none !important;
     }
+
     header {
         padding: 1rem;
     }
+
     h1 {
         font-size: 2rem;
     }
+
     .hero {
         display: flex;
         flex-direction: column;
         justify-content: center;
     }
-    .hero-right-side {
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-        width: 100%;
-        gap: 1rem;
-    }
+
     .hero h3 {
-        width: 80%;
+        width: 90%;
         font-weight: 700;
         font-size: 2rem;
     }
@@ -554,6 +533,7 @@ footer {
     .hero p {
         font-size: 1.5em;
     }
+
     .hero-image {
         border-radius: 5px;
         width: 100%;
@@ -561,16 +541,20 @@ footer {
         height: 300px;
         object-fit: cover;
     }
+
     .button-group {
         width: 100%;
     }
+
     .button-group button {
         width: 100%;
     }
+
     .mobil-create-channel {
         display: flex;
         width: 50px;
     }
+
     .mobil-channel-menu {
         display: none;
         flex-direction: column;
@@ -580,12 +564,14 @@ footer {
         position: fixed;
         background-color: blue;
     }
+
     .mobil-nav {
         display: flex;
         transition: margin-right 0.5s;
         padding: 16px;
         justify-content: flex-end;
     }
+
     .mobil-channel-list {
         height: 100%;
         width: 0;
@@ -598,9 +584,11 @@ footer {
         transition: 0.5s;
         border: 1px solid rgb(255, 165, 0);
     }
+
     .mobil-channel-list a {
         font-size: 18px;
     }
+
     .mobil-button-group {
         display: flex;
         gap: 1rem;
